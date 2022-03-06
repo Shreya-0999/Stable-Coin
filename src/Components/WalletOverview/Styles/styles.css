@@ -1,0 +1,46 @@
+.walletOverview{
+    height: 70vh;
+    width: 55%;
+    border: 1px solid #474646;
+    background-color: #1f1f1f;
+    margin:0.7rem;
+    margin-left: 0;
+    overflow-y: auto;
+    border-radius:10px
+}
+.walletOverview::-webkit-scrollbar {
+    display: none;
+  }
+.walletOverview-balanceContainer{
+    padding: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 10rem;
+}
+.wallet-coinContainer{
+    height:4rem;
+    width:47%;
+    margin: 0.8rem 0 0 0.8rem;
+    background-color: #222222;
+    border-radius: 8px;
+    border-left: 5px solid rgb(65, 65, 177)
+}
+.wallet-coinDeatil1{
+    font-size:0.9rem;
+    justify-content: space-between;
+}
+.wallet-coinDeatil2{
+    font-size: 0.8rem;
+    color: #757272;
+    justify-content: space-between;
+    margin: 0;
+}
+.margin{
+    margin: 0.5rem;
+}
+.wallet-totalCard{
+    height:15rem;
+    width:100%;
+}
+.side-margin{
+    margin: 0 0.5rem;
+}

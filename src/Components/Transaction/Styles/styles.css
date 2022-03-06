@@ -1,0 +1,12 @@
+.transaction{
+    height: 40vh;
+    width: 99%;
+    border: 1px solid #474646;
+    background-color: #1f1f1f;
+    border-radius:10px
+}
+.transaction-text{
+    font-size:1.7rem;
+    color: #7a7373;
+    margin-left: 1rem;
+}

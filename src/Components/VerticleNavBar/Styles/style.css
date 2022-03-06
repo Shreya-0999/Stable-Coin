@@ -1,0 +1,49 @@
+.sideNav{
+    height:100vh;
+    width: 13rem;
+    background-color:#1a1a1a;
+}
+.sideNav-logo{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.sideNav-listContainer{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding:0;
+    color:white;
+    margin-top: 0;
+}
+.sideNav-listBox{
+    height:3rem;
+    width: 10rem;
+    margin:1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.sideNav-list{
+    width:60%;
+    margin: 0;
+    font-size: 0.9rem;
+}
+.sideNav-imgBox{
+    height:1rem;
+    width:10%;
+}
+.sideNav-img{
+    max-width: 100%;
+    height:auto;
+}
+.sideNav-help{
+    margin:2rem;
+    color:white;
+    font-size:0.7rem;
+}
